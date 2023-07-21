@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardData {
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    padding: 8px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    
+    
+}
+
+#saveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+
+#saveButton:hover {
+    background-color: #0056b3;
+}
